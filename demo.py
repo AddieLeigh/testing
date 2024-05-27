@@ -1,12 +1,9 @@
 print("Hello, World!!!")
 
-def numSum(): 
-    try:
-        print("first input...")
+def numSum():
+    try: 
         a = int(input("First number: "))
-        print("first input complete. Second input...")
         b = int(input("Second number: "))
-        print("second input complete. addition...")
 
         print(f"{a} + {b} = {a+b}")
     except ValueError:
